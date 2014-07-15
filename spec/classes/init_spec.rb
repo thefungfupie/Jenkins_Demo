@@ -5,7 +5,7 @@ describe 'unika' do
       :operatingsystem => 'CentOS'
     } }
     it { 
-      should contain_class('unika') 
+      #should contain_class('unika') 
       should contain_file('/etc/unika-version').with(
         'owner' => 'root',
         'group' => 'root',
@@ -18,7 +18,7 @@ describe 'unika' do
       :operatingsystem => 'RedHat'
     } }
     it { 
-      should contain_class('unika') 
+      #should contain_class('unika') 
       should contain_file('/etc/unika-version').with(
         'owner' => 'root',
         'group' => 'root',
@@ -31,7 +31,7 @@ describe 'unika' do
       :operatingsystem => 'OS X'
     } }
     it { 
-      should contain_class('unika') 
+      #should contain_class('unika') 
       should contain_file('/etc/unika-version').with(
         'owner' => 'root',
         'group' => 'wheel',
@@ -44,7 +44,7 @@ describe 'unika' do
       :operatingsystem => 'Debian'
     } }
     it { 
-      should contain_class('unika') 
+      #should contain_class('unika') 
       should contain_file('/etc/unika-version').with(
         'owner' => 'root',
         'group' => 'root',
